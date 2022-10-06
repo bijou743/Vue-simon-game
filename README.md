@@ -1,29 +1,10 @@
-# vue-game
+# Simon The Game
 
-This template should help get you started developing with Vue 3 in Vite.
+This project based on a Test task Junior FrontDev.
 
-## Recommended IDE Setup
+The task is to create Simon The Game. The rules of the game are:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- The game board consists of 4 squares/buttons - each of them contains one of 4 colors and lights up on click.
+- The round of the game consists of two phases. In the first phase application shows to the user some sequence by highlighting buttons randomly. In the second phase user has to reproduce the sequence by clicking the buttons.
+- If the user makes a mistake in the sequence than the game is over and application shows this information to the user.
+- Every next round of the game has more steps in the sequence.
